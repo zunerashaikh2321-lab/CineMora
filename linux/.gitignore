@@ -1,0 +1,28 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/flutter/ephemeral/
+# Flutter build files
+build/
+
+# Android / Gradle
+.gradle/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Generated Android files
+android/.gradle/
+android/app/build/
+android/build/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store

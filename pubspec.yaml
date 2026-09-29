@@ -1,0 +1,36 @@
+name: cinemora
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+  retrofit: ^4.10.0
+  logger: ^2.8.0
+  json_annotation: ^4.12.0
+  google_fonts: ^6.3.3
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.6.0
+  retrofit_generator: ^10.0.1
+  json_serializable: ^6.10.0
+
+  # Linting
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
